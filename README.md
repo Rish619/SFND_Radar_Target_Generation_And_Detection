@@ -137,7 +137,9 @@ The 2nd FFT is already implemented in the code. It  generates a Range Doppler Ma
 
 This is how the RDM with heatmap looks for real life data. Horizontal axis is Range which is directly related to the power of the Rx signal received(Used for color coding). Vertical axis is the velocity which is centered at 0 and on the left with negative axis targets are approaching, wheras positive sides means receding targets.(As pink car is approaching tharget as  speed is less, Red car is faster than the green car/ego car and is therefore receding).
 <img src="./RDM.png" width="700" />
+
 2D FFT response showing only one target for the assignment's RDM along with clutter noise all around.
+
 ```Matlab
 %% RANGE DOPPLER RESPONSE
 % The 2D FFT implementation is already provided here. This will run a 2DFFT
