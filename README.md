@@ -187,7 +187,8 @@ saveas(figure2, 'Output_Images/Range_Doppler_MAP_Second_FFT.png')
   * Next, compare the signal under CUT against this threshold.
   * If the CUT level > threshold assign it a value of 1, else equate it to 0.
 
-<img src="./clutter.png" width="350" title="Cluttering"/><img src="./Generic_thresholding.png" width="350", title="Fixed Thresholding"/>
+<img src="./clutter.png" width="350" title="Cluttering"/>     
+<img src="./Generic_thresholding.png" width="350", title="Fixed Thresholding"/>
 
 How clutter noise and simple fixed thresholding can lead to miss detections of week targets or can lead to clutter being detected as false targets.
  
